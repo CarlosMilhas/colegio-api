@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: Colegio
+
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/colegio
+    username: admin
+    password: admin
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+jwt:
+  secret: Q2xhdmVTZWNyZXRhTXV5TGFyZ2FZMlNlZ3VyYVBhcmFGaXJtYXJMb3NUb2tlbnNKV1RDb25FWGl0bzE=
+logging:
+  level:
+    org.springframework.security: DEBUG
